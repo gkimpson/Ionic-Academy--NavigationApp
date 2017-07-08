@@ -1,11 +1,4 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-<button ion-button (click)="goToNext()">Go To Next!</button>
-</ion-content>
+<ion-tabs>
+  <ion-tab tabTitle="First Tab" tabIcon="heart" [root]="tab1" ></ion-tab>
+  <ion-tab tabTitle="Second Tab" tabIcon="american-football" [root]="tab2" ></ion-tab>
+</ion-tabs>
