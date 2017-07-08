@@ -1,3 +1,4 @@
+import { SecondPage } from './../second/second';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -11,4 +12,11 @@ export class HomePage {
 
   }
 
+  goToNext() {
+    this.navCtrl.push(SecondPage);
+  }
+
+  goBack() {
+     
+  }
 }
