@@ -13,10 +13,6 @@ export class HomePage {
   }
 
   goToNext() {
-    this.navCtrl.push(SecondPage);
-  }
-
-  goBack() {
-     
+    this.navCtrl.push(SecondPage, {name:'Gavin', age:35});
   }
 }
